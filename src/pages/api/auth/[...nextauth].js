@@ -1,55 +1,69 @@
 // src/pages/api/auth/[...nextauth].js
 import NextAuth from 'next-auth'
 import CredentialsProvider from 'next-auth/providers/credentials'
+import { PrismaClient } from '@prisma/client'
+import bcrypt from 'bcryptjs'
+
+const prisma = new PrismaClient()
 
 export default NextAuth({
   providers: [
     CredentialsProvider({
-      // You can call this “Login with Email & Password”
       name: 'Credentials',
       credentials: {
         email: { label: 'Email', type: 'email' },
         password: { label: 'Password', type: 'password' }
       },
       async authorize(credentials) {
-        // ─── STUB (no database yet) ──────────────────────────────────
-        // “credentials” is an object: { email: '...', password: '...' }
-        // Here we hard-code one valid user. Anyone else fails.
-        if (
-          credentials.email === 'demo@demo.com' &&
-          credentials.password === 'demo'
-        ) {
-          // Return any object. Its properties go into the session.
-          return { id: 1, name: 'Demo User', email: 'demo@demo.com' }
+        // 1) Lookup the user by email
+        const user = await prisma.user.findUnique({
+          where: { email: credentials.email }
+        })
+
+        // 2) If no user or no password match, reject
+        if (!user) {
+          return null
         }
-        // Return null => sign-in fails
-        return null
+        const isValid = await bcrypt.compare(
+          credentials.password,
+          user.hashedPassword
+        )
+        if (!isValid) {
+          return null
+        }
+
+        // 3) Remove sensitive fields before returning
+        const { hashedPassword, ...safeUser } = user
+        return safeUser
       }
     })
   ],
 
-  // ─── SESSION SETTINGS ─────────────────────────────────────────
   session: {
-    strategy: 'jwt',        // use JSON Web Tokens
-    maxAge: 10 * 60,        // session expires after 10 minutes (600 seconds)
-    updateAge: 5 * 60       // refresh JWT every 5 minutes
+    strategy: 'jwt',
+    maxAge: 10 * 60,    // expire after 10 minutes
+    updateAge: 5 * 60   // refresh session every 5 minutes
   },
 
-  // ─── CALLBACKS TO SHAPE THE TOKEN & SESSION ──────────────────
   callbacks: {
     async jwt({ token, user }) {
-      // On initial sign-in, “user” is the object returned by authorize()
-      if (user) token.user = user
+      // On sign-in, attach user data to token
+      if (user) {
+        token.user = user
+      }
       return token
     },
     async session({ session, token }) {
-      // Expose token.user on the client via useSession()
+      // Make token.user available on the client
       session.user = token.user
       return session
     }
   },
 
-  // ─── SECURITY ─────────────────────────────────────────────────
-  // You MUST set this in .env.local in your project root:
+  pages: {
+    // Optional: custom signIn page
+    signIn: '/login'
+  },
+
   secret: process.env.NEXTAUTH_SECRET
 })
