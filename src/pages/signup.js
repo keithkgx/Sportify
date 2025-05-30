@@ -1,10 +1,42 @@
 // src/pages/signup.js
+import { useRouter } from 'next/router'
 import Link from 'next/link'
 
 export default function SignUpPage() {
+  const router = useRouter()
+
+  const handleSubmit = async (e) => {
+    e.preventDefault()
+    const form = e.currentTarget
+    const email = form.email.value
+    const password = form.password.value
+    const confirm = form.confirmPassword.value
+
+    // 1) Client-side confirm password matching
+    if (password !== confirm) {
+      alert('Passwords do not match. Please try again.')
+      return
+    }
+
+    // 2) Send to your signup API
+    const res = await fetch('/api/auth/signup', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email, password })
+    })
+
+    if (res.ok) {
+      // 3) On success, send them to login
+      router.push('/login')
+    } else {
+      const { error } = await res.json()
+      alert(error || 'Something went wrong. Please try again.')
+    }
+  }
+
   return (
     <div className="flex flex-col min-h-screen bg-white text-black">
-      {/* Navbar */}
+      {/* Navbar (same as login) */}
       <header className="flex items-center justify-between px-10 py-6 bg-gray-200 border-b-2 border-black">
         <div className="flex items-center space-x-4">
           <img src="/Sportify logo.webp" alt="Sportify Logo" className="w-20" />
@@ -24,7 +56,7 @@ export default function SignUpPage() {
 
       {/* Split panel */}
       <main className="flex flex-1">
-        {/* Left: NBA image */}
+        {/* Left */}
         <div
           className="w-1/2 relative bg-center bg-cover"
           style={{ backgroundImage: "url('/nba-photo.jpg')" }}
@@ -35,9 +67,8 @@ export default function SignUpPage() {
         {/* Right: Sign-up form */}
         <div className="w-1/2 flex items-center justify-center p-8">
           <form
+            onSubmit={handleSubmit}
             className="bg-white p-8 rounded-lg shadow-lg w-full max-w-sm"
-            method="POST"
-            action="/api/auth/signup"
           >
             <h2 className="text-2xl font-bold mb-6">Create Account</h2>
 

@@ -1,7 +1,41 @@
 // src/pages/reset.js
+import { useRouter } from 'next/router'
 import Link from 'next/link'
 
 export default function ResetPage() {
+  const router = useRouter()
+
+  const handleSubmit = async (e) => {
+    e.preventDefault()
+    const form = e.currentTarget
+    const email = form.email.value
+    const newPassword = form.newPassword.value
+    const confirm = form.confirmPassword.value
+
+    // 1) Client-side match check
+    if (newPassword !== confirm) {
+      alert('Passwords do not match. Please try again.')
+      return
+    }
+
+    // 2) Send reset request
+    const res = await fetch('/api/auth/reset', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email, newPassword })
+    })
+
+    const data = await res.json()
+    if (!res.ok) {
+      alert(data.error || 'Something went wrong.')
+      return
+    }
+
+    // 3) Success!
+    alert(data.message)
+    router.push('/login')
+  }
+
   return (
     <div className="flex flex-col min-h-screen bg-white text-black">
       {/* Navbar */}
@@ -24,7 +58,7 @@ export default function ResetPage() {
 
       {/* Split panel */}
       <main className="flex flex-1">
-        {/* Left: NBA image */}
+        {/* Left image */}
         <div
           className="w-1/2 relative bg-center bg-cover"
           style={{ backgroundImage: "url('/nba-photo.jpg')" }}
@@ -32,12 +66,11 @@ export default function ResetPage() {
           <div className="absolute inset-0 bg-white/20" />
         </div>
 
-        {/* Right: Reset Password form */}
+        {/* Right: reset form */}
         <div className="w-1/2 flex items-center justify-center p-8">
           <form
+            onSubmit={handleSubmit}
             className="bg-white p-8 rounded-lg shadow-lg w-full max-w-sm"
-            method="POST"
-            action="/api/auth/reset"
           >
             <h2 className="text-2xl font-bold mb-6">Reset Password</h2>
 
