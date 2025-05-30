@@ -1,0 +1,1602 @@
+[
+  {
+    "id": 1,
+    "first_name": "Bruce",
+    "last_name": "Williams",
+    "team": {
+      "full_name": "Bucks"
+    },
+    "position": "F",
+    "image": "https://ui-avatars.com/api/?name=Bruce+Williams&background=random",
+    "stats": {
+      "pts": 34.1,
+      "reb": 11.4,
+      "ast": 5.5,
+      "fg_pct": 0.379
+    }
+  },
+  {
+    "id": 2,
+    "first_name": "Robert",
+    "last_name": "Holt",
+    "team": {
+      "full_name": "Suns"
+    },
+    "position": "C",
+    "image": "https://ui-avatars.com/api/?name=Robert+Holt&background=random",
+    "stats": {
+      "pts": 5.1,
+      "reb": 8.5,
+      "ast": 7.7,
+      "fg_pct": 0.456
+    }
+  },
+  {
+    "id": 3,
+    "first_name": "Ryan",
+    "last_name": "Ramos",
+    "team": {
+      "full_name": "76ers"
+    },
+    "position": "F",
+    "image": "https://ui-avatars.com/api/?name=Ryan+Ramos&background=random",
+    "stats": {
+      "pts": 23.1,
+      "reb": 6.2,
+      "ast": 8.0,
+      "fg_pct": 0.436
+    }
+  },
+  {
+    "id": 4,
+    "first_name": "Willie",
+    "last_name": "Chandler",
+    "team": {
+      "full_name": "Bucks"
+    },
+    "position": "C",
+    "image": "https://ui-avatars.com/api/?name=Willie+Chandler&background=random",
+    "stats": {
+      "pts": 31.3,
+      "reb": 3.2,
+      "ast": 4.9,
+      "fg_pct": 0.415
+    }
+  },
+  {
+    "id": 5,
+    "first_name": "James",
+    "last_name": "Peterson",
+    "team": {
+      "full_name": "Heat"
+    },
+    "position": "F",
+    "image": "https://ui-avatars.com/api/?name=James+Peterson&background=random",
+    "stats": {
+      "pts": 30.6,
+      "reb": 12.7,
+      "ast": 8.9,
+      "fg_pct": 0.408
+    }
+  },
+  {
+    "id": 6,
+    "first_name": "Jesse",
+    "last_name": "Cooper",
+    "team": {
+      "full_name": "Heat"
+    },
+    "position": "C",
+    "image": "https://ui-avatars.com/api/?name=Jesse+Cooper&background=random",
+    "stats": {
+      "pts": 9.1,
+      "reb": 13.3,
+      "ast": 4.4,
+      "fg_pct": 0.507
+    }
+  },
+  {
+    "id": 7,
+    "first_name": "Brandon",
+    "last_name": "Chapman",
+    "team": {
+      "full_name": "Celtics"
+    },
+    "position": "G",
+    "image": "https://ui-avatars.com/api/?name=Brandon+Chapman&background=random",
+    "stats": {
+      "pts": 7.9,
+      "reb": 6.1,
+      "ast": 6.6,
+      "fg_pct": 0.467
+    }
+  },
+  {
+    "id": 8,
+    "first_name": "John",
+    "last_name": "Sullivan",
+    "team": {
+      "full_name": "Warriors"
+    },
+    "position": "C",
+    "image": "https://ui-avatars.com/api/?name=John+Sullivan&background=random",
+    "stats": {
+      "pts": 5.0,
+      "reb": 6.3,
+      "ast": 8.8,
+      "fg_pct": 0.406
+    }
+  },
+  {
+    "id": 9,
+    "first_name": "Christopher",
+    "last_name": "Campbell",
+    "team": {
+      "full_name": "Celtics"
+    },
+    "position": "G",
+    "image": "https://ui-avatars.com/api/?name=Christopher+Campbell&background=random",
+    "stats": {
+      "pts": 30.3,
+      "reb": 7.9,
+      "ast": 9.1,
+      "fg_pct": 0.357
+    }
+  },
+  {
+    "id": 10,
+    "first_name": "Jose",
+    "last_name": "Little",
+    "team": {
+      "full_name": "Lakers"
+    },
+    "position": "C",
+    "image": "https://ui-avatars.com/api/?name=Jose+Little&background=random",
+    "stats": {
+      "pts": 23.6,
+      "reb": 8.0,
+      "ast": 2.5,
+      "fg_pct": 0.381
+    }
+  },
+  {
+    "id": 11,
+    "first_name": "Joshua",
+    "last_name": "Woods",
+    "team": {
+      "full_name": "76ers"
+    },
+    "position": "C",
+    "image": "https://ui-avatars.com/api/?name=Joshua+Woods&background=random",
+    "stats": {
+      "pts": 18.8,
+      "reb": 3.7,
+      "ast": 1.0,
+      "fg_pct": 0.57
+    }
+  },
+  {
+    "id": 12,
+    "first_name": "Marcus",
+    "last_name": "Trujillo",
+    "team": {
+      "full_name": "Lakers"
+    },
+    "position": "C",
+    "image": "https://ui-avatars.com/api/?name=Marcus+Trujillo&background=random",
+    "stats": {
+      "pts": 16.6,
+      "reb": 14.5,
+      "ast": 2.9,
+      "fg_pct": 0.593
+    }
+  },
+  {
+    "id": 13,
+    "first_name": "Brandon",
+    "last_name": "Hernandez",
+    "team": {
+      "full_name": "Heat"
+    },
+    "position": "G",
+    "image": "https://ui-avatars.com/api/?name=Brandon+Hernandez&background=random",
+    "stats": {
+      "pts": 21.6,
+      "reb": 2.9,
+      "ast": 5.4,
+      "fg_pct": 0.398
+    }
+  },
+  {
+    "id": 14,
+    "first_name": "Paul",
+    "last_name": "Williams",
+    "team": {
+      "full_name": "Suns"
+    },
+    "position": "F",
+    "image": "https://ui-avatars.com/api/?name=Paul+Williams&background=random",
+    "stats": {
+      "pts": 34.9,
+      "reb": 7.1,
+      "ast": 1.6,
+      "fg_pct": 0.559
+    }
+  },
+  {
+    "id": 15,
+    "first_name": "David",
+    "last_name": "Bennett",
+    "team": {
+      "full_name": "Celtics"
+    },
+    "position": "F",
+    "image": "https://ui-avatars.com/api/?name=David+Bennett&background=random",
+    "stats": {
+      "pts": 18.0,
+      "reb": 9.5,
+      "ast": 7.0,
+      "fg_pct": 0.539
+    }
+  },
+  {
+    "id": 16,
+    "first_name": "James",
+    "last_name": "Black",
+    "team": {
+      "full_name": "Celtics"
+    },
+    "position": "F",
+    "image": "https://ui-avatars.com/api/?name=James+Black&background=random",
+    "stats": {
+      "pts": 16.2,
+      "reb": 5.7,
+      "ast": 3.4,
+      "fg_pct": 0.459
+    }
+  },
+  {
+    "id": 17,
+    "first_name": "Michael",
+    "last_name": "Vasquez",
+    "team": {
+      "full_name": "76ers"
+    },
+    "position": "G",
+    "image": "https://ui-avatars.com/api/?name=Michael+Vasquez&background=random",
+    "stats": {
+      "pts": 29.2,
+      "reb": 6.7,
+      "ast": 3.8,
+      "fg_pct": 0.47
+    }
+  },
+  {
+    "id": 18,
+    "first_name": "Alex",
+    "last_name": "Griffith",
+    "team": {
+      "full_name": "76ers"
+    },
+    "position": "F",
+    "image": "https://ui-avatars.com/api/?name=Alex+Griffith&background=random",
+    "stats": {
+      "pts": 15.0,
+      "reb": 12.7,
+      "ast": 1.3,
+      "fg_pct": 0.596
+    }
+  },
+  {
+    "id": 19,
+    "first_name": "Hunter",
+    "last_name": "Wheeler",
+    "team": {
+      "full_name": "Warriors"
+    },
+    "position": "G",
+    "image": "https://ui-avatars.com/api/?name=Hunter+Wheeler&background=random",
+    "stats": {
+      "pts": 27.5,
+      "reb": 10.3,
+      "ast": 6.6,
+      "fg_pct": 0.479
+    }
+  },
+  {
+    "id": 20,
+    "first_name": "Michael",
+    "last_name": "Turner",
+    "team": {
+      "full_name": "Suns"
+    },
+    "position": "C",
+    "image": "https://ui-avatars.com/api/?name=Michael+Turner&background=random",
+    "stats": {
+      "pts": 16.0,
+      "reb": 4.2,
+      "ast": 5.7,
+      "fg_pct": 0.531
+    }
+  },
+  {
+    "id": 21,
+    "first_name": "Shawn",
+    "last_name": "Blackburn",
+    "team": {
+      "full_name": "Celtics"
+    },
+    "position": "F",
+    "image": "https://ui-avatars.com/api/?name=Shawn+Blackburn&background=random",
+    "stats": {
+      "pts": 21.7,
+      "reb": 14.2,
+      "ast": 4.0,
+      "fg_pct": 0.505
+    }
+  },
+  {
+    "id": 22,
+    "first_name": "Anthony",
+    "last_name": "Hines",
+    "team": {
+      "full_name": "Nuggets"
+    },
+    "position": "F",
+    "image": "https://ui-avatars.com/api/?name=Anthony+Hines&background=random",
+    "stats": {
+      "pts": 13.1,
+      "reb": 11.3,
+      "ast": 8.0,
+      "fg_pct": 0.577
+    }
+  },
+  {
+    "id": 23,
+    "first_name": "Joseph",
+    "last_name": "Martin",
+    "team": {
+      "full_name": "Celtics"
+    },
+    "position": "C",
+    "image": "https://ui-avatars.com/api/?name=Joseph+Martin&background=random",
+    "stats": {
+      "pts": 12.1,
+      "reb": 10.2,
+      "ast": 7.0,
+      "fg_pct": 0.406
+    }
+  },
+  {
+    "id": 24,
+    "first_name": "Nathan",
+    "last_name": "Zavala",
+    "team": {
+      "full_name": "76ers"
+    },
+    "position": "G",
+    "image": "https://ui-avatars.com/api/?name=Nathan+Zavala&background=random",
+    "stats": {
+      "pts": 25.4,
+      "reb": 6.7,
+      "ast": 3.9,
+      "fg_pct": 0.462
+    }
+  },
+  {
+    "id": 25,
+    "first_name": "Terry",
+    "last_name": "Evans",
+    "team": {
+      "full_name": "Warriors"
+    },
+    "position": "F",
+    "image": "https://ui-avatars.com/api/?name=Terry+Evans&background=random",
+    "stats": {
+      "pts": 24.0,
+      "reb": 10.5,
+      "ast": 7.1,
+      "fg_pct": 0.476
+    }
+  },
+  {
+    "id": 26,
+    "first_name": "Bradley",
+    "last_name": "Nguyen",
+    "team": {
+      "full_name": "Bucks"
+    },
+    "position": "F",
+    "image": "https://ui-avatars.com/api/?name=Bradley+Nguyen&background=random",
+    "stats": {
+      "pts": 33.7,
+      "reb": 11.0,
+      "ast": 8.1,
+      "fg_pct": 0.592
+    }
+  },
+  {
+    "id": 27,
+    "first_name": "Mitchell",
+    "last_name": "Hoffman",
+    "team": {
+      "full_name": "Suns"
+    },
+    "position": "F",
+    "image": "https://ui-avatars.com/api/?name=Mitchell+Hoffman&background=random",
+    "stats": {
+      "pts": 14.7,
+      "reb": 7.2,
+      "ast": 8.9,
+      "fg_pct": 0.476
+    }
+  },
+  {
+    "id": 28,
+    "first_name": "James",
+    "last_name": "Peterson",
+    "team": {
+      "full_name": "Suns"
+    },
+    "position": "F",
+    "image": "https://ui-avatars.com/api/?name=James+Peterson&background=random",
+    "stats": {
+      "pts": 21.7,
+      "reb": 12.2,
+      "ast": 3.7,
+      "fg_pct": 0.52
+    }
+  },
+  {
+    "id": 29,
+    "first_name": "Shawn",
+    "last_name": "Merritt",
+    "team": {
+      "full_name": "Lakers"
+    },
+    "position": "F",
+    "image": "https://ui-avatars.com/api/?name=Shawn+Merritt&background=random",
+    "stats": {
+      "pts": 31.9,
+      "reb": 12.9,
+      "ast": 7.8,
+      "fg_pct": 0.523
+    }
+  },
+  {
+    "id": 30,
+    "first_name": "Benjamin",
+    "last_name": "Fitzgerald",
+    "team": {
+      "full_name": "Bucks"
+    },
+    "position": "C",
+    "image": "https://ui-avatars.com/api/?name=Benjamin+Fitzgerald&background=random",
+    "stats": {
+      "pts": 21.4,
+      "reb": 11.4,
+      "ast": 4.2,
+      "fg_pct": 0.54
+    }
+  },
+  {
+    "id": 31,
+    "first_name": "Michael",
+    "last_name": "Townsend",
+    "team": {
+      "full_name": "Celtics"
+    },
+    "position": "G",
+    "image": "https://ui-avatars.com/api/?name=Michael+Townsend&background=random",
+    "stats": {
+      "pts": 10.9,
+      "reb": 9.5,
+      "ast": 5.4,
+      "fg_pct": 0.434
+    }
+  },
+  {
+    "id": 32,
+    "first_name": "William",
+    "last_name": "Mann",
+    "team": {
+      "full_name": "76ers"
+    },
+    "position": "C",
+    "image": "https://ui-avatars.com/api/?name=William+Mann&background=random",
+    "stats": {
+      "pts": 5.1,
+      "reb": 3.7,
+      "ast": 8.8,
+      "fg_pct": 0.575
+    }
+  },
+  {
+    "id": 33,
+    "first_name": "Todd",
+    "last_name": "Dominguez",
+    "team": {
+      "full_name": "76ers"
+    },
+    "position": "G",
+    "image": "https://ui-avatars.com/api/?name=Todd+Dominguez&background=random",
+    "stats": {
+      "pts": 21.8,
+      "reb": 6.8,
+      "ast": 6.5,
+      "fg_pct": 0.486
+    }
+  },
+  {
+    "id": 34,
+    "first_name": "Ryan",
+    "last_name": "Stewart",
+    "team": {
+      "full_name": "Heat"
+    },
+    "position": "C",
+    "image": "https://ui-avatars.com/api/?name=Ryan+Stewart&background=random",
+    "stats": {
+      "pts": 21.3,
+      "reb": 2.4,
+      "ast": 5.4,
+      "fg_pct": 0.559
+    }
+  },
+  {
+    "id": 35,
+    "first_name": "Jay",
+    "last_name": "York",
+    "team": {
+      "full_name": "76ers"
+    },
+    "position": "C",
+    "image": "https://ui-avatars.com/api/?name=Jay+York&background=random",
+    "stats": {
+      "pts": 11.0,
+      "reb": 3.9,
+      "ast": 1.1,
+      "fg_pct": 0.435
+    }
+  },
+  {
+    "id": 36,
+    "first_name": "Dennis",
+    "last_name": "Johnson",
+    "team": {
+      "full_name": "Heat"
+    },
+    "position": "C",
+    "image": "https://ui-avatars.com/api/?name=Dennis+Johnson&background=random",
+    "stats": {
+      "pts": 9.2,
+      "reb": 4.0,
+      "ast": 3.5,
+      "fg_pct": 0.48
+    }
+  },
+  {
+    "id": 37,
+    "first_name": "Christopher",
+    "last_name": "Brooks",
+    "team": {
+      "full_name": "Nuggets"
+    },
+    "position": "F",
+    "image": "https://ui-avatars.com/api/?name=Christopher+Brooks&background=random",
+    "stats": {
+      "pts": 26.4,
+      "reb": 3.6,
+      "ast": 5.3,
+      "fg_pct": 0.424
+    }
+  },
+  {
+    "id": 38,
+    "first_name": "Thomas",
+    "last_name": "Duran",
+    "team": {
+      "full_name": "Heat"
+    },
+    "position": "C",
+    "image": "https://ui-avatars.com/api/?name=Thomas+Duran&background=random",
+    "stats": {
+      "pts": 33.9,
+      "reb": 6.4,
+      "ast": 8.0,
+      "fg_pct": 0.53
+    }
+  },
+  {
+    "id": 39,
+    "first_name": "Howard",
+    "last_name": "Gonzalez",
+    "team": {
+      "full_name": "Lakers"
+    },
+    "position": "G",
+    "image": "https://ui-avatars.com/api/?name=Howard+Gonzalez&background=random",
+    "stats": {
+      "pts": 32.4,
+      "reb": 4.6,
+      "ast": 2.0,
+      "fg_pct": 0.536
+    }
+  },
+  {
+    "id": 40,
+    "first_name": "David",
+    "last_name": "Washington",
+    "team": {
+      "full_name": "76ers"
+    },
+    "position": "C",
+    "image": "https://ui-avatars.com/api/?name=David+Washington&background=random",
+    "stats": {
+      "pts": 16.6,
+      "reb": 2.9,
+      "ast": 6.4,
+      "fg_pct": 0.47
+    }
+  },
+  {
+    "id": 41,
+    "first_name": "Jose",
+    "last_name": "Turner",
+    "team": {
+      "full_name": "Bucks"
+    },
+    "position": "F",
+    "image": "https://ui-avatars.com/api/?name=Jose+Turner&background=random",
+    "stats": {
+      "pts": 34.1,
+      "reb": 2.3,
+      "ast": 8.5,
+      "fg_pct": 0.585
+    }
+  },
+  {
+    "id": 42,
+    "first_name": "Jason",
+    "last_name": "James",
+    "team": {
+      "full_name": "Nuggets"
+    },
+    "position": "G",
+    "image": "https://ui-avatars.com/api/?name=Jason+James&background=random",
+    "stats": {
+      "pts": 16.5,
+      "reb": 7.3,
+      "ast": 3.8,
+      "fg_pct": 0.386
+    }
+  },
+  {
+    "id": 43,
+    "first_name": "Michael",
+    "last_name": "Simmons",
+    "team": {
+      "full_name": "Bucks"
+    },
+    "position": "G",
+    "image": "https://ui-avatars.com/api/?name=Michael+Simmons&background=random",
+    "stats": {
+      "pts": 10.6,
+      "reb": 14.3,
+      "ast": 4.0,
+      "fg_pct": 0.392
+    }
+  },
+  {
+    "id": 44,
+    "first_name": "Todd",
+    "last_name": "Miller",
+    "team": {
+      "full_name": "Celtics"
+    },
+    "position": "G",
+    "image": "https://ui-avatars.com/api/?name=Todd+Miller&background=random",
+    "stats": {
+      "pts": 8.3,
+      "reb": 6.8,
+      "ast": 4.7,
+      "fg_pct": 0.439
+    }
+  },
+  {
+    "id": 45,
+    "first_name": "Dustin",
+    "last_name": "Parker",
+    "team": {
+      "full_name": "Celtics"
+    },
+    "position": "F",
+    "image": "https://ui-avatars.com/api/?name=Dustin+Parker&background=random",
+    "stats": {
+      "pts": 17.3,
+      "reb": 2.3,
+      "ast": 1.3,
+      "fg_pct": 0.47
+    }
+  },
+  {
+    "id": 46,
+    "first_name": "Jonathan",
+    "last_name": "Beck",
+    "team": {
+      "full_name": "76ers"
+    },
+    "position": "C",
+    "image": "https://ui-avatars.com/api/?name=Jonathan+Beck&background=random",
+    "stats": {
+      "pts": 20.8,
+      "reb": 6.2,
+      "ast": 8.5,
+      "fg_pct": 0.521
+    }
+  },
+  {
+    "id": 47,
+    "first_name": "Ronald",
+    "last_name": "Gutierrez",
+    "team": {
+      "full_name": "Celtics"
+    },
+    "position": "G",
+    "image": "https://ui-avatars.com/api/?name=Ronald+Gutierrez&background=random",
+    "stats": {
+      "pts": 20.5,
+      "reb": 2.2,
+      "ast": 6.9,
+      "fg_pct": 0.536
+    }
+  },
+  {
+    "id": 48,
+    "first_name": "Michael",
+    "last_name": "Gilbert",
+    "team": {
+      "full_name": "Lakers"
+    },
+    "position": "C",
+    "image": "https://ui-avatars.com/api/?name=Michael+Gilbert&background=random",
+    "stats": {
+      "pts": 15.7,
+      "reb": 6.7,
+      "ast": 6.4,
+      "fg_pct": 0.562
+    }
+  },
+  {
+    "id": 49,
+    "first_name": "Thomas",
+    "last_name": "Odom",
+    "team": {
+      "full_name": "Suns"
+    },
+    "position": "C",
+    "image": "https://ui-avatars.com/api/?name=Thomas+Odom&background=random",
+    "stats": {
+      "pts": 33.3,
+      "reb": 13.7,
+      "ast": 2.8,
+      "fg_pct": 0.565
+    }
+  },
+  {
+    "id": 50,
+    "first_name": "Brendan",
+    "last_name": "Wilson",
+    "team": {
+      "full_name": "Lakers"
+    },
+    "position": "G",
+    "image": "https://ui-avatars.com/api/?name=Brendan+Wilson&background=random",
+    "stats": {
+      "pts": 10.8,
+      "reb": 7.4,
+      "ast": 5.9,
+      "fg_pct": 0.44
+    }
+  },
+  {
+    "id": 51,
+    "first_name": "Nicholas",
+    "last_name": "Graham",
+    "team": {
+      "full_name": "Heat"
+    },
+    "position": "G",
+    "image": "https://ui-avatars.com/api/?name=Nicholas+Graham&background=random",
+    "stats": {
+      "pts": 30.4,
+      "reb": 7.3,
+      "ast": 1.0,
+      "fg_pct": 0.402
+    }
+  },
+  {
+    "id": 52,
+    "first_name": "Tony",
+    "last_name": "Smith",
+    "team": {
+      "full_name": "Bucks"
+    },
+    "position": "C",
+    "image": "https://ui-avatars.com/api/?name=Tony+Smith&background=random",
+    "stats": {
+      "pts": 13.3,
+      "reb": 6.2,
+      "ast": 10.0,
+      "fg_pct": 0.414
+    }
+  },
+  {
+    "id": 53,
+    "first_name": "Austin",
+    "last_name": "Ross",
+    "team": {
+      "full_name": "Lakers"
+    },
+    "position": "C",
+    "image": "https://ui-avatars.com/api/?name=Austin+Ross&background=random",
+    "stats": {
+      "pts": 10.9,
+      "reb": 7.7,
+      "ast": 6.2,
+      "fg_pct": 0.599
+    }
+  },
+  {
+    "id": 54,
+    "first_name": "Kevin",
+    "last_name": "Brown",
+    "team": {
+      "full_name": "Heat"
+    },
+    "position": "C",
+    "image": "https://ui-avatars.com/api/?name=Kevin+Brown&background=random",
+    "stats": {
+      "pts": 13.5,
+      "reb": 7.5,
+      "ast": 4.4,
+      "fg_pct": 0.395
+    }
+  },
+  {
+    "id": 55,
+    "first_name": "Jason",
+    "last_name": "Mckinney",
+    "team": {
+      "full_name": "Heat"
+    },
+    "position": "F",
+    "image": "https://ui-avatars.com/api/?name=Jason+Mckinney&background=random",
+    "stats": {
+      "pts": 18.7,
+      "reb": 3.5,
+      "ast": 1.2,
+      "fg_pct": 0.431
+    }
+  },
+  {
+    "id": 56,
+    "first_name": "Hunter",
+    "last_name": "Cannon",
+    "team": {
+      "full_name": "Heat"
+    },
+    "position": "G",
+    "image": "https://ui-avatars.com/api/?name=Hunter+Cannon&background=random",
+    "stats": {
+      "pts": 25.1,
+      "reb": 13.4,
+      "ast": 3.6,
+      "fg_pct": 0.547
+    }
+  },
+  {
+    "id": 57,
+    "first_name": "Andre",
+    "last_name": "Bond",
+    "team": {
+      "full_name": "Heat"
+    },
+    "position": "F",
+    "image": "https://ui-avatars.com/api/?name=Andre+Bond&background=random",
+    "stats": {
+      "pts": 27.9,
+      "reb": 10.2,
+      "ast": 2.5,
+      "fg_pct": 0.479
+    }
+  },
+  {
+    "id": 58,
+    "first_name": "Ryan",
+    "last_name": "Hernandez",
+    "team": {
+      "full_name": "Celtics"
+    },
+    "position": "F",
+    "image": "https://ui-avatars.com/api/?name=Ryan+Hernandez&background=random",
+    "stats": {
+      "pts": 25.7,
+      "reb": 2.1,
+      "ast": 4.3,
+      "fg_pct": 0.533
+    }
+  },
+  {
+    "id": 59,
+    "first_name": "Gary",
+    "last_name": "Mcgrath",
+    "team": {
+      "full_name": "Suns"
+    },
+    "position": "F",
+    "image": "https://ui-avatars.com/api/?name=Gary+Mcgrath&background=random",
+    "stats": {
+      "pts": 16.4,
+      "reb": 11.4,
+      "ast": 8.1,
+      "fg_pct": 0.591
+    }
+  },
+  {
+    "id": 60,
+    "first_name": "Robert",
+    "last_name": "Summers",
+    "team": {
+      "full_name": "Celtics"
+    },
+    "position": "C",
+    "image": "https://ui-avatars.com/api/?name=Robert+Summers&background=random",
+    "stats": {
+      "pts": 20.6,
+      "reb": 4.8,
+      "ast": 9.0,
+      "fg_pct": 0.567
+    }
+  },
+  {
+    "id": 61,
+    "first_name": "Kenneth",
+    "last_name": "Wolfe",
+    "team": {
+      "full_name": "Nuggets"
+    },
+    "position": "C",
+    "image": "https://ui-avatars.com/api/?name=Kenneth+Wolfe&background=random",
+    "stats": {
+      "pts": 34.9,
+      "reb": 12.4,
+      "ast": 3.1,
+      "fg_pct": 0.491
+    }
+  },
+  {
+    "id": 62,
+    "first_name": "Matthew",
+    "last_name": "Gomez",
+    "team": {
+      "full_name": "Nuggets"
+    },
+    "position": "C",
+    "image": "https://ui-avatars.com/api/?name=Matthew+Gomez&background=random",
+    "stats": {
+      "pts": 17.7,
+      "reb": 12.6,
+      "ast": 3.0,
+      "fg_pct": 0.531
+    }
+  },
+  {
+    "id": 63,
+    "first_name": "Charles",
+    "last_name": "Boyd",
+    "team": {
+      "full_name": "Warriors"
+    },
+    "position": "G",
+    "image": "https://ui-avatars.com/api/?name=Charles+Boyd&background=random",
+    "stats": {
+      "pts": 31.4,
+      "reb": 5.0,
+      "ast": 9.4,
+      "fg_pct": 0.393
+    }
+  },
+  {
+    "id": 64,
+    "first_name": "Joel",
+    "last_name": "Zamora",
+    "team": {
+      "full_name": "Celtics"
+    },
+    "position": "C",
+    "image": "https://ui-avatars.com/api/?name=Joel+Zamora&background=random",
+    "stats": {
+      "pts": 7.8,
+      "reb": 11.0,
+      "ast": 7.6,
+      "fg_pct": 0.53
+    }
+  },
+  {
+    "id": 65,
+    "first_name": "Jonathan",
+    "last_name": "Briggs",
+    "team": {
+      "full_name": "Nuggets"
+    },
+    "position": "F",
+    "image": "https://ui-avatars.com/api/?name=Jonathan+Briggs&background=random",
+    "stats": {
+      "pts": 6.0,
+      "reb": 3.7,
+      "ast": 1.1,
+      "fg_pct": 0.374
+    }
+  },
+  {
+    "id": 66,
+    "first_name": "Marcus",
+    "last_name": "Berry",
+    "team": {
+      "full_name": "Celtics"
+    },
+    "position": "G",
+    "image": "https://ui-avatars.com/api/?name=Marcus+Berry&background=random",
+    "stats": {
+      "pts": 23.7,
+      "reb": 13.3,
+      "ast": 1.3,
+      "fg_pct": 0.364
+    }
+  },
+  {
+    "id": 67,
+    "first_name": "Bryan",
+    "last_name": "Guerrero",
+    "team": {
+      "full_name": "Celtics"
+    },
+    "position": "F",
+    "image": "https://ui-avatars.com/api/?name=Bryan+Guerrero&background=random",
+    "stats": {
+      "pts": 18.3,
+      "reb": 8.5,
+      "ast": 9.3,
+      "fg_pct": 0.414
+    }
+  },
+  {
+    "id": 68,
+    "first_name": "Christopher",
+    "last_name": "Lopez",
+    "team": {
+      "full_name": "Nuggets"
+    },
+    "position": "G",
+    "image": "https://ui-avatars.com/api/?name=Christopher+Lopez&background=random",
+    "stats": {
+      "pts": 23.3,
+      "reb": 6.9,
+      "ast": 7.2,
+      "fg_pct": 0.378
+    }
+  },
+  {
+    "id": 69,
+    "first_name": "Timothy",
+    "last_name": "Waller",
+    "team": {
+      "full_name": "Nuggets"
+    },
+    "position": "F",
+    "image": "https://ui-avatars.com/api/?name=Timothy+Waller&background=random",
+    "stats": {
+      "pts": 14.9,
+      "reb": 11.0,
+      "ast": 6.2,
+      "fg_pct": 0.512
+    }
+  },
+  {
+    "id": 70,
+    "first_name": "Peter",
+    "last_name": "Nichols",
+    "team": {
+      "full_name": "Warriors"
+    },
+    "position": "G",
+    "image": "https://ui-avatars.com/api/?name=Peter+Nichols&background=random",
+    "stats": {
+      "pts": 5.1,
+      "reb": 6.3,
+      "ast": 7.0,
+      "fg_pct": 0.438
+    }
+  },
+  {
+    "id": 71,
+    "first_name": "Daniel",
+    "last_name": "Clark",
+    "team": {
+      "full_name": "Lakers"
+    },
+    "position": "C",
+    "image": "https://ui-avatars.com/api/?name=Daniel+Clark&background=random",
+    "stats": {
+      "pts": 14.4,
+      "reb": 10.8,
+      "ast": 8.0,
+      "fg_pct": 0.423
+    }
+  },
+  {
+    "id": 72,
+    "first_name": "David",
+    "last_name": "Miller",
+    "team": {
+      "full_name": "Nuggets"
+    },
+    "position": "F",
+    "image": "https://ui-avatars.com/api/?name=David+Miller&background=random",
+    "stats": {
+      "pts": 16.7,
+      "reb": 2.8,
+      "ast": 1.0,
+      "fg_pct": 0.479
+    }
+  },
+  {
+    "id": 73,
+    "first_name": "Robert",
+    "last_name": "Lee",
+    "team": {
+      "full_name": "Suns"
+    },
+    "position": "F",
+    "image": "https://ui-avatars.com/api/?name=Robert+Lee&background=random",
+    "stats": {
+      "pts": 28.2,
+      "reb": 3.5,
+      "ast": 9.3,
+      "fg_pct": 0.475
+    }
+  },
+  {
+    "id": 74,
+    "first_name": "Mark",
+    "last_name": "Wood",
+    "team": {
+      "full_name": "Celtics"
+    },
+    "position": "F",
+    "image": "https://ui-avatars.com/api/?name=Mark+Wood&background=random",
+    "stats": {
+      "pts": 11.8,
+      "reb": 4.9,
+      "ast": 5.0,
+      "fg_pct": 0.439
+    }
+  },
+  {
+    "id": 75,
+    "first_name": "Joshua",
+    "last_name": "Morris",
+    "team": {
+      "full_name": "Celtics"
+    },
+    "position": "F",
+    "image": "https://ui-avatars.com/api/?name=Joshua+Morris&background=random",
+    "stats": {
+      "pts": 7.3,
+      "reb": 4.8,
+      "ast": 4.7,
+      "fg_pct": 0.57
+    }
+  },
+  {
+    "id": 76,
+    "first_name": "Philip",
+    "last_name": "Thompson",
+    "team": {
+      "full_name": "Heat"
+    },
+    "position": "C",
+    "image": "https://ui-avatars.com/api/?name=Philip+Thompson&background=random",
+    "stats": {
+      "pts": 17.5,
+      "reb": 14.5,
+      "ast": 7.2,
+      "fg_pct": 0.48
+    }
+  },
+  {
+    "id": 77,
+    "first_name": "Michael",
+    "last_name": "Jenkins",
+    "team": {
+      "full_name": "Lakers"
+    },
+    "position": "G",
+    "image": "https://ui-avatars.com/api/?name=Michael+Jenkins&background=random",
+    "stats": {
+      "pts": 15.1,
+      "reb": 12.6,
+      "ast": 6.8,
+      "fg_pct": 0.545
+    }
+  },
+  {
+    "id": 78,
+    "first_name": "Scott",
+    "last_name": "Perry",
+    "team": {
+      "full_name": "Nuggets"
+    },
+    "position": "G",
+    "image": "https://ui-avatars.com/api/?name=Scott+Perry&background=random",
+    "stats": {
+      "pts": 10.1,
+      "reb": 8.8,
+      "ast": 3.2,
+      "fg_pct": 0.431
+    }
+  },
+  {
+    "id": 79,
+    "first_name": "Dalton",
+    "last_name": "Hansen",
+    "team": {
+      "full_name": "76ers"
+    },
+    "position": "F",
+    "image": "https://ui-avatars.com/api/?name=Dalton+Hansen&background=random",
+    "stats": {
+      "pts": 33.3,
+      "reb": 3.1,
+      "ast": 3.3,
+      "fg_pct": 0.578
+    }
+  },
+  {
+    "id": 80,
+    "first_name": "Robert",
+    "last_name": "Rodriguez",
+    "team": {
+      "full_name": "Bucks"
+    },
+    "position": "C",
+    "image": "https://ui-avatars.com/api/?name=Robert+Rodriguez&background=random",
+    "stats": {
+      "pts": 8.5,
+      "reb": 6.2,
+      "ast": 4.6,
+      "fg_pct": 0.545
+    }
+  },
+  {
+    "id": 81,
+    "first_name": "Brian",
+    "last_name": "Mcclain",
+    "team": {
+      "full_name": "Suns"
+    },
+    "position": "G",
+    "image": "https://ui-avatars.com/api/?name=Brian+Mcclain&background=random",
+    "stats": {
+      "pts": 16.9,
+      "reb": 7.9,
+      "ast": 5.2,
+      "fg_pct": 0.539
+    }
+  },
+  {
+    "id": 82,
+    "first_name": "Christopher",
+    "last_name": "Hoover",
+    "team": {
+      "full_name": "Lakers"
+    },
+    "position": "G",
+    "image": "https://ui-avatars.com/api/?name=Christopher+Hoover&background=random",
+    "stats": {
+      "pts": 13.0,
+      "reb": 10.9,
+      "ast": 1.1,
+      "fg_pct": 0.582
+    }
+  },
+  {
+    "id": 83,
+    "first_name": "Aaron",
+    "last_name": "Garcia",
+    "team": {
+      "full_name": "Bucks"
+    },
+    "position": "F",
+    "image": "https://ui-avatars.com/api/?name=Aaron+Garcia&background=random",
+    "stats": {
+      "pts": 15.3,
+      "reb": 7.6,
+      "ast": 10.0,
+      "fg_pct": 0.436
+    }
+  },
+  {
+    "id": 84,
+    "first_name": "Chad",
+    "last_name": "Fernandez",
+    "team": {
+      "full_name": "76ers"
+    },
+    "position": "G",
+    "image": "https://ui-avatars.com/api/?name=Chad+Fernandez&background=random",
+    "stats": {
+      "pts": 8.5,
+      "reb": 3.0,
+      "ast": 5.9,
+      "fg_pct": 0.405
+    }
+  },
+  {
+    "id": 85,
+    "first_name": "Christopher",
+    "last_name": "Solis",
+    "team": {
+      "full_name": "Nuggets"
+    },
+    "position": "F",
+    "image": "https://ui-avatars.com/api/?name=Christopher+Solis&background=random",
+    "stats": {
+      "pts": 12.3,
+      "reb": 5.2,
+      "ast": 6.2,
+      "fg_pct": 0.499
+    }
+  },
+  {
+    "id": 86,
+    "first_name": "Kevin",
+    "last_name": "Hale",
+    "team": {
+      "full_name": "Celtics"
+    },
+    "position": "F",
+    "image": "https://ui-avatars.com/api/?name=Kevin+Hale&background=random",
+    "stats": {
+      "pts": 13.1,
+      "reb": 13.5,
+      "ast": 9.5,
+      "fg_pct": 0.553
+    }
+  },
+  {
+    "id": 87,
+    "first_name": "Wyatt",
+    "last_name": "Turner",
+    "team": {
+      "full_name": "Warriors"
+    },
+    "position": "G",
+    "image": "https://ui-avatars.com/api/?name=Wyatt+Turner&background=random",
+    "stats": {
+      "pts": 23.3,
+      "reb": 4.1,
+      "ast": 5.4,
+      "fg_pct": 0.52
+    }
+  },
+  {
+    "id": 88,
+    "first_name": "Charles",
+    "last_name": "Edwards",
+    "team": {
+      "full_name": "Bucks"
+    },
+    "position": "G",
+    "image": "https://ui-avatars.com/api/?name=Charles+Edwards&background=random",
+    "stats": {
+      "pts": 24.6,
+      "reb": 2.8,
+      "ast": 9.7,
+      "fg_pct": 0.456
+    }
+  },
+  {
+    "id": 89,
+    "first_name": "Reginald",
+    "last_name": "Pitts",
+    "team": {
+      "full_name": "Nuggets"
+    },
+    "position": "C",
+    "image": "https://ui-avatars.com/api/?name=Reginald+Pitts&background=random",
+    "stats": {
+      "pts": 12.9,
+      "reb": 11.4,
+      "ast": 1.6,
+      "fg_pct": 0.525
+    }
+  },
+  {
+    "id": 90,
+    "first_name": "Hunter",
+    "last_name": "Hill",
+    "team": {
+      "full_name": "Warriors"
+    },
+    "position": "C",
+    "image": "https://ui-avatars.com/api/?name=Hunter+Hill&background=random",
+    "stats": {
+      "pts": 33.4,
+      "reb": 12.7,
+      "ast": 8.6,
+      "fg_pct": 0.386
+    }
+  },
+  {
+    "id": 91,
+    "first_name": "Michael",
+    "last_name": "Haynes",
+    "team": {
+      "full_name": "Celtics"
+    },
+    "position": "F",
+    "image": "https://ui-avatars.com/api/?name=Michael+Haynes&background=random",
+    "stats": {
+      "pts": 16.7,
+      "reb": 12.0,
+      "ast": 6.0,
+      "fg_pct": 0.598
+    }
+  },
+  {
+    "id": 92,
+    "first_name": "Eric",
+    "last_name": "Silva",
+    "team": {
+      "full_name": "Lakers"
+    },
+    "position": "F",
+    "image": "https://ui-avatars.com/api/?name=Eric+Silva&background=random",
+    "stats": {
+      "pts": 9.1,
+      "reb": 13.2,
+      "ast": 2.4,
+      "fg_pct": 0.398
+    }
+  },
+  {
+    "id": 93,
+    "first_name": "David",
+    "last_name": "Herrera",
+    "team": {
+      "full_name": "Suns"
+    },
+    "position": "F",
+    "image": "https://ui-avatars.com/api/?name=David+Herrera&background=random",
+    "stats": {
+      "pts": 18.3,
+      "reb": 10.9,
+      "ast": 6.2,
+      "fg_pct": 0.553
+    }
+  },
+  {
+    "id": 94,
+    "first_name": "Mark",
+    "last_name": "Hawkins",
+    "team": {
+      "full_name": "76ers"
+    },
+    "position": "F",
+    "image": "https://ui-avatars.com/api/?name=Mark+Hawkins&background=random",
+    "stats": {
+      "pts": 21.3,
+      "reb": 4.8,
+      "ast": 6.7,
+      "fg_pct": 0.5
+    }
+  },
+  {
+    "id": 95,
+    "first_name": "Joseph",
+    "last_name": "Yates",
+    "team": {
+      "full_name": "Nuggets"
+    },
+    "position": "F",
+    "image": "https://ui-avatars.com/api/?name=Joseph+Yates&background=random",
+    "stats": {
+      "pts": 20.4,
+      "reb": 12.2,
+      "ast": 6.4,
+      "fg_pct": 0.477
+    }
+  },
+  {
+    "id": 96,
+    "first_name": "Eric",
+    "last_name": "King",
+    "team": {
+      "full_name": "Nuggets"
+    },
+    "position": "F",
+    "image": "https://ui-avatars.com/api/?name=Eric+King&background=random",
+    "stats": {
+      "pts": 18.0,
+      "reb": 14.0,
+      "ast": 1.7,
+      "fg_pct": 0.532
+    }
+  },
+  {
+    "id": 97,
+    "first_name": "Gary",
+    "last_name": "Hampton",
+    "team": {
+      "full_name": "Lakers"
+    },
+    "position": "F",
+    "image": "https://ui-avatars.com/api/?name=Gary+Hampton&background=random",
+    "stats": {
+      "pts": 9.7,
+      "reb": 10.0,
+      "ast": 9.3,
+      "fg_pct": 0.4
+    }
+  },
+  {
+    "id": 98,
+    "first_name": "Derek",
+    "last_name": "Mcdaniel",
+    "team": {
+      "full_name": "Warriors"
+    },
+    "position": "C",
+    "image": "https://ui-avatars.com/api/?name=Derek+Mcdaniel&background=random",
+    "stats": {
+      "pts": 16.5,
+      "reb": 7.7,
+      "ast": 9.9,
+      "fg_pct": 0.46
+    }
+  },
+  {
+    "id": 99,
+    "first_name": "Michael",
+    "last_name": "Contreras",
+    "team": {
+      "full_name": "Heat"
+    },
+    "position": "G",
+    "image": "https://ui-avatars.com/api/?name=Michael+Contreras&background=random",
+    "stats": {
+      "pts": 23.7,
+      "reb": 5.1,
+      "ast": 5.7,
+      "fg_pct": 0.361
+    }
+  },
+  {
+    "id": 100,
+    "first_name": "Edgar",
+    "last_name": "Sullivan",
+    "team": {
+      "full_name": "Celtics"
+    },
+    "position": "F",
+    "image": "https://ui-avatars.com/api/?name=Edgar+Sullivan&background=random",
+    "stats": {
+      "pts": 8.5,
+      "reb": 13.1,
+      "ast": 3.5,
+      "fg_pct": 0.547
+    }
+  }
+]
