@@ -1,0 +1,92 @@
+[
+  {
+    "id": 2544,
+    "first_name": "LeBron",
+    "last_name": "James",
+    "team": { "full_name": "Los Angeles Lakers" },
+    "position": "F",
+    "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/2544.png",
+    "stats": { "pts": 23.8, "reb": 7.3, "ast": 6.8, "fg_pct": 0.513 }
+  },
+  {
+    "id": 201939,
+    "first_name": "Stephen",
+    "last_name": "Curry",
+    "team": { "full_name": "Golden State Warriors" },
+    "position": "G",
+    "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/201939.png",
+    "stats": { "pts": 29.4, "reb": 6.1, "ast": 6.3, "fg_pct": 0.475 }
+  },
+  {
+    "id": 201142,
+    "first_name": "Kevin",
+    "last_name": "Durant",
+    "team": { "full_name": "Phoenix Suns" },
+    "position": "F",
+    "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/201142.png",
+    "stats": { "pts": 29.1, "reb": 6.7, "ast": 5.3, "fg_pct": 0.542 }
+  },
+  {
+    "id": 203507,
+    "first_name": "Giannis",
+    "last_name": "Antetokounmpo",
+    "team": { "full_name": "Milwaukee Bucks" },
+    "position": "F",
+    "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/203507.png",
+    "stats": { "pts": 31.1, "reb": 11.8, "ast": 6.1, "fg_pct": 0.575 }
+  },
+  {
+    "id": 202695,
+    "first_name": "Kawhi",
+    "last_name": "Leonard",
+    "team": { "full_name": "Los Angeles Clippers" },
+    "position": "F",
+    "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/202695.png",
+    "stats": { "pts": 24.8, "reb": 6.5, "ast": 4.0, "fg_pct": 0.483 }
+  },
+  {
+    "id": 1629029,
+    "first_name": "Luka",
+    "last_name": "Dončić",
+    "team": { "full_name": "Dallas Mavericks" },
+    "position": "G",
+    "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629029.png",
+    "stats": { "pts": 32.4, "reb": 8.3, "ast": 8.7, "fg_pct": 0.486 }
+  },
+  {
+    "id": 203999,
+    "first_name": "Nikola",
+    "last_name": "Jokić",
+    "team": { "full_name": "Denver Nuggets" },
+    "position": "C",
+    "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/203999.png",
+    "stats": { "pts": 24.5, "reb": 11.8, "ast": 9.4, "fg_pct": 0.583 }
+  },
+  {
+    "id": 203954,
+    "first_name": "Joel",
+    "last_name": "Embiid",
+    "team": { "full_name": "Philadelphia 76ers" },
+    "position": "C",
+    "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/203954.png",
+    "stats": { "pts": 33.1, "reb": 10.0, "ast": 4.2, "fg_pct": 0.552 }
+  },
+  {
+    "id": 1628369,
+    "first_name": "Jayson",
+    "last_name": "Tatum",
+    "team": { "full_name": "Boston Celtics" },
+    "position": "F",
+    "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628369.png",
+    "stats": { "pts": 30.1, "reb": 8.5, "ast": 4.9, "fg_pct": 0.466 }
+  },
+  {
+    "id": 203081,
+    "first_name": "Damian",
+    "last_name": "Lillard",
+    "team": { "full_name": "Portland Trail Blazers" },
+    "position": "G",
+    "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/203081.png",
+    "stats": { "pts": 28.7, "reb": 4.2, "ast": 7.3, "fg_pct": 0.436 }
+  }
+]
