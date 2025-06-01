@@ -1,52 +1,38 @@
-// src/pages/login.js
-import { signIn } from 'next-auth/react'
-import { useRouter } from 'next/router'
-import Link from 'next/link'
+// pages/login.js
+import { signIn } from "next-auth/react";
+import { useRouter } from "next/router";
+import Link from "next/link";
+import Navbar from "../components/Navbar";
 
 export default function LoginPage() {
-  const router = useRouter()
+  const router = useRouter();
 
   const handleSubmit = async (e) => {
-    e.preventDefault()
-    const email = e.currentTarget.email.value
-    const password = e.currentTarget.password.value
+    e.preventDefault();
+    const email = e.currentTarget.email.value;
+    const password = e.currentTarget.password.value;
 
     // Call NextAuth without auto-redirect
-    const res = await signIn('credentials', {
+    const res = await signIn("credentials", {
       redirect: false,
       email,
-      password
-    })
+      password,
+    });
 
     if (res.error) {
       // Wrong email or password
-      alert('Email or password is incorrect. Please try again.')
-      return
+      alert("Email or password is incorrect. Please try again.");
+      return;
     }
 
     // Success: go to account
-    router.push('/account')
-  }
+    router.push("/account");
+  };
 
   return (
     <div className="flex flex-col min-h-screen bg-white text-black">
       {/* Navbar */}
-      <header className="flex items-center justify-between px-10 py-6 bg-gray-200 border-b-2 border-black">
-        <div className="flex items-center space-x-4">
-          <img src="/Sportify logo.webp" alt="Sportify Logo" className="w-20" />
-          <h1 className="text-4xl font-bold">SPORTIFY</h1>
-        </div>
-        <nav className="flex space-x-10 text-xl font-semibold">
-          <Link href="/" className="hover:underline">HOME</Link>
-          <Link href="/players" className="hover:underline">PLAYER</Link>
-          <Link href="/compare" className="hover:underline">COMPARE</Link>
-          <Link href="/teams" className="hover:underline">TEAM</Link>
-          <Link href="/account" className="hover:underline flex items-center space-x-2">
-            <img src="/Account Icon.webp" alt="Account Icon" className="w-5 h-5" />
-            <span>ACCOUNT</span>
-          </Link>
-        </nav>
-      </header>
+      <Navbar />
 
       {/* Split panel */}
       <main className="flex flex-1">
@@ -66,7 +52,10 @@ export default function LoginPage() {
           >
             <h2 className="text-2xl font-bold mb-6">Sign In</h2>
 
-            <label htmlFor="email" className="block text-sm font-medium mb-1">
+            <label
+              htmlFor="email"
+              className="block text-sm font-medium mb-1"
+            >
               Email
             </label>
             <input
@@ -77,7 +66,10 @@ export default function LoginPage() {
               className="w-full p-2 border border-gray-300 rounded mb-4"
             />
 
-            <label htmlFor="password" className="block text-sm font-medium mb-1">
+            <label
+              htmlFor="password"
+              className="block text-sm font-medium mb-1"
+            >
               Password
             </label>
             <input
@@ -96,14 +88,20 @@ export default function LoginPage() {
             </button>
 
             <div className="mt-4 text-right">
-              <Link href="/reset" className="text-sm text-orange-500 hover:underline">
+              <Link
+                href="/reset"
+                className="text-sm text-orange-500 hover:underline"
+              >
                 Forgot Password?
               </Link>
             </div>
 
             <p className="mt-6 text-center text-sm">
-              Don’t have an account?{' '}
-              <Link href="/signup" className="text-orange-500 hover:underline">
+              Don’t have an account?{" "}
+              <Link
+                href="/signup"
+                className="text-orange-500 hover:underline"
+              >
                 Sign Up
               </Link>
             </p>
@@ -111,5 +109,6 @@ export default function LoginPage() {
         </div>
       </main>
     </div>
-  )
+  );
 }
+
