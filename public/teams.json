@@ -4,209 +4,269 @@
     "full_name": "Atlanta Hawks",
     "conference": "East",
     "division": "Southeast",
-    "logo": "/logos/hawks.png"
+    "logo": "/logos/hawks.png",
+    "wins": 35,
+    "losses": 47
   },
   {
     "id": 2,
     "full_name": "Boston Celtics",
     "conference": "East",
     "division": "Atlantic",
-    "logo": "/logos/celtics.png"
+    "logo": "/logos/celtics.png",
+    "wins": 60,
+    "losses": 22
   },
   {
     "id": 3,
     "full_name": "Brooklyn Nets",
     "conference": "East",
     "division": "Atlantic",
-    "logo": "/logos/nets.png"
+    "logo": "/logos/nets.png",
+    "wins": 45,
+    "losses": 37
   },
   {
     "id": 4,
     "full_name": "Charlotte Hornets",
     "conference": "East",
     "division": "Southeast",
-    "logo": "/logos/hornets.png"
+    "logo": "/logos/hornets.png",
+    "wins": 24,
+    "losses": 58
   },
   {
     "id": 5,
     "full_name": "Chicago Bulls",
     "conference": "East",
     "division": "Central",
-    "logo": "/logos/bulls.png"
+    "logo": "/logos/bulls.png",
+    "wins": 34,
+    "losses": 48
   },
   {
     "id": 6,
     "full_name": "Cleveland Cavaliers",
     "conference": "East",
     "division": "Central",
-    "logo": "/logos/cavaliers.png"
+    "logo": "/logos/cavaliers.png",
+    "wins": 50,
+    "losses": 32
   },
   {
     "id": 7,
     "full_name": "Dallas Mavericks",
     "conference": "West",
     "division": "Southwest",
-    "logo": "/logos/mavericks.png"
+    "logo": "/logos/mavericks.png",
+    "wins": 47,
+    "losses": 35
   },
   {
     "id": 8,
     "full_name": "Denver Nuggets",
     "conference": "West",
     "division": "Northwest",
-    "logo": "/logos/nuggets.png"
+    "logo": "/logos/nuggets.png",
+    "wins": 58,
+    "losses": 24
   },
   {
     "id": 9,
     "full_name": "Detroit Pistons",
     "conference": "East",
     "division": "Central",
-    "logo": "/logos/pistons.png"
+    "logo": "/logos/pistons.png",
+    "wins": 17,
+    "losses": 65
   },
   {
     "id": 10,
     "full_name": "Golden State Warriors",
     "conference": "West",
     "division": "Pacific",
-    "logo": "/logos/warriors.png"
+    "logo": "/logos/warriors.png",
+    "wins": 53,
+    "losses": 29
   },
   {
     "id": 11,
     "full_name": "Houston Rockets",
     "conference": "West",
     "division": "Southwest",
-    "logo": "/logos/rockets.png"
+    "logo": "/logos/rockets.png",
+    "wins": 22,
+    "losses": 60
   },
   {
     "id": 12,
     "full_name": "Indiana Pacers",
     "conference": "East",
     "division": "Central",
-    "logo": "/logos/pacers.png"
+    "logo": "/logos/pacers.png",
+    "wins": 52,
+    "losses": 30
   },
   {
     "id": 13,
     "full_name": "Los Angeles Clippers",
     "conference": "West",
     "division": "Pacific",
-    "logo": "/logos/clippers.png"
+    "logo": "/logos/clippers.png",
+    "wins": 43,
+    "losses": 39
   },
   {
     "id": 14,
     "full_name": "Los Angeles Lakers",
     "conference": "West",
     "division": "Pacific",
-    "logo": "/logos/lakers.png"
+    "logo": "/logos/lakers.png",
+    "wins": 45,
+    "losses": 37
   },
   {
     "id": 15,
     "full_name": "Memphis Grizzlies",
     "conference": "West",
     "division": "Southwest",
-    "logo": "/logos/grizzlies.png"
+    "logo": "/logos/grizzlies.png",
+    "wins": 50,
+    "losses": 32
   },
   {
     "id": 16,
     "full_name": "Miami Heat",
     "conference": "East",
     "division": "Southeast",
-    "logo": "/logos/heat.png"
+    "logo": "/logos/heat.png",
+    "wins": 55,
+    "losses": 27
   },
   {
     "id": 17,
     "full_name": "Milwaukee Bucks",
     "conference": "East",
     "division": "Central",
-    "logo": "/logos/bucks.png"
+    "logo": "/logos/bucks.png",
+    "wins": 58,
+    "losses": 24
   },
   {
     "id": 18,
     "full_name": "Minnesota Timberwolves",
     "conference": "West",
     "division": "Northwest",
-    "logo": "/logos/timberwolves.png"
+    "logo": "/logos/timberwolves.png",
+    "wins": 46,
+    "losses": 36
   },
   {
     "id": 19,
     "full_name": "New Orleans Pelicans",
     "conference": "West",
     "division": "Southwest",
-    "logo": "/logos/pelicans.png"
+    "logo": "/logos/pelicans.png",
+    "wins": 42,
+    "losses": 40
   },
   {
     "id": 20,
     "full_name": "New York Knicks",
     "conference": "East",
     "division": "Atlantic",
-    "logo": "/logos/knicks.png"
+    "logo": "/logos/knicks.png",
+    "wins": 47,
+    "losses": 35
   },
   {
     "id": 21,
     "full_name": "Oklahoma City Thunder",
     "conference": "West",
     "division": "Northwest",
-    "logo": "/logos/thunder.png"
+    "logo": "/logos/thunder.png",
+    "wins": 40,
+    "losses": 42
   },
   {
     "id": 22,
     "full_name": "Orlando Magic",
     "conference": "East",
     "division": "Southeast",
-    "logo": "/logos/magic.png"
+    "logo": "/logos/magic.png",
+    "wins": 42,
+    "losses": 40
   },
   {
     "id": 23,
     "full_name": "Philadelphia 76ers",
     "conference": "East",
     "division": "Atlantic",
-    "logo": "/logos/sixers.png"
+    "logo": "/logos/sixers.png",
+    "wins": 57,
+    "losses": 25
   },
   {
     "id": 24,
     "full_name": "Phoenix Suns",
     "conference": "West",
     "division": "Pacific",
-    "logo": "/logos/suns.png"
+    "logo": "/logos/suns.png",
+    "wins": 47,
+    "losses": 35
   },
   {
     "id": 25,
     "full_name": "Portland Trail Blazers",
     "conference": "West",
     "division": "Northwest",
-    "logo": "/logos/blazers.png"
+    "logo": "/logos/blazers.png",
+    "wins": 33,
+    "losses": 49
   },
   {
     "id": 26,
     "full_name": "Sacramento Kings",
     "conference": "West",
     "division": "Pacific",
-    "logo": "/logos/kings.png"
+    "logo": "/logos/kings.png",
+    "wins": 48,
+    "losses": 34
   },
   {
     "id": 27,
     "full_name": "San Antonio Spurs",
     "conference": "West",
     "division": "Southwest",
-    "logo": "/logos/spurs.png"
+    "logo": "/logos/spurs.png",
+    "wins": 22,
+    "losses": 60
   },
   {
     "id": 28,
     "full_name": "Toronto Raptors",
     "conference": "East",
     "division": "Atlantic",
-    "logo": "/logos/raptors.png"
+    "logo": "/logos/raptors.png",
+    "wins": 41,
+    "losses": 41
   },
   {
     "id": 29,
     "full_name": "Utah Jazz",
     "conference": "West",
     "division": "Northwest",
-    "logo": "/logos/jazz.png"
+    "logo": "/logos/jazz.png",
+    "wins": 49,
+    "losses": 33
   },
   {
     "id": 30,
     "full_name": "Washington Wizards",
     "conference": "East",
     "division": "Southeast",
-    "logo": "/logos/wizards.png"
+    "logo": "/logos/wizards.png",
+    "wins": 28,
+    "losses": 54
   }
 ]
