@@ -7,7 +7,7 @@ export default function Players() {
   const [search, setSearch] = useState("");
   const [position, setPosition] = useState("");
 
-  // 1️⃣ Load your local JSON from /public/players.json
+  // Load local JSON from /public/players.json
   useEffect(() => {
     async function load() {
       try {
@@ -22,10 +22,10 @@ export default function Players() {
     load();
   }, []);
 
-  // 2️⃣ Position filter options
+  // Position filter options
   const positions = ["G", "F", "C"];
 
-  // 3️⃣ Filter logic
+  // Filter logic
   const filtered = players.filter((p) => {
     const fullName = `${p.first_name} ${p.last_name}`.toLowerCase();
     const matchesName = fullName.includes(search.toLowerCase());

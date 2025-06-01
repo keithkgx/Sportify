@@ -1,3 +1,4 @@
+// pages/teams.js
 import { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 
@@ -39,7 +40,7 @@ export default function Teams() {
 
   const filteredTeams = teams.filter(
     (team) =>
-      team.full_name?.toLowerCase().includes(search.toLowerCase()) &&
+      team.full_name.toLowerCase().includes(search.toLowerCase()) &&
       (conference === "" || team.conference === conference) &&
       (division === "" || team.division === division)
   );
@@ -105,7 +106,13 @@ export default function Teams() {
               )}
               <p className="text-center font-semibold">{team.full_name}</p>
               <p className="text-sm text-gray-600">{team.division}</p>
-              <p className="text-sm text-gray-400">{team.conference} Conf.</p>
+              <p className="text-sm text-gray-400 mb-2">
+                {team.conference} Conf.
+              </p>
+              {/* ← New “Record” line: */}
+              <p className="text-sm text-orange-600 font-medium">
+                {team.wins}-{team.losses}
+              </p>
             </div>
           ))}
         </div>
