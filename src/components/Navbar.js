@@ -8,7 +8,7 @@ export default function Navbar() {
       {/* Left side logo + title */}
       <div className="flex items-center space-x-4">
         <Image
-          src="/Sportify logo.webp"
+          src="/SportifyLogo.webp"
           alt="Sportify Logo"
           width={80}
           height={80}
