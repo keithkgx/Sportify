@@ -13,7 +13,7 @@ model User {
   email          String   @unique
   hashedPassword String
   name           String?
-  dob            String?  // you can store dates as strings for now
+  dob            DateTime?  // you can store dates as strings for now
   language       String?
   country        String?
   favoritePlayer String?

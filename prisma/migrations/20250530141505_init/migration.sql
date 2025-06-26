@@ -4,7 +4,7 @@ CREATE TABLE "User" (
     "email" TEXT NOT NULL,
     "hashedPassword" TEXT NOT NULL,
     "name" TEXT,
-    "dob" TEXT,
+    "dob" DATETIME,
     "language" TEXT,
     "country" TEXT,
     "favoritePlayer" TEXT,
