@@ -1,6 +1,5 @@
-// pages/account.js
-
 import Navbar from "../components/Navbar";
+import Link from "next/link";
 import { signOut } from "next-auth/react";
 import { getServerSession } from "next-auth/next";
 import { authOptions } from "./api/auth/[...nextauth]";
@@ -17,12 +16,11 @@ export default function AccountPage({ user }) {
         <div className="flex justify-between items-center mb-8">
           <h2 className="text-3xl font-bold">My Account</h2>
           <div className="space-x-4">
-            <a
-              href="/account/edit"
-              className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition"
-            >
-              Edit Profile
-            </a>
+            <Link href="/account/edit" legacyBehavior>
+              <a className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition">
+                Edit Profile
+              </a>
+            </Link>
             <button
               onClick={() => signOut({ callbackUrl: "/login" })}
               className="px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition"
@@ -70,32 +68,25 @@ export default function AccountPage({ user }) {
 }
 
 export async function getServerSideProps(ctx) {
-  // 1️⃣ Grab the session with server API so you get user.id
   const session = await getServerSession(ctx.req, ctx.res, authOptions);
+
   if (!session?.user?.id) {
-    // Not signed in, redirect to login
     return { redirect: { destination: "/login", permanent: false } };
   }
 
-  // 2️⃣ Pull the fresh user record from your database
   const record = await prisma.user.findUnique({
     where: { id: session.user.id },
-    // optionally select only the fields you need:
-    // select: { id: true, email: true, name: true, dob: true, language: true, country: true, favoritePlayer: true, favoriteTeam: true }
   });
 
   if (!record) {
-    // If somehow the user row doesn't exist, sign them out
     return { redirect: { destination: "/login", permanent: false } };
   }
 
-  // 3️⃣ Destructure / convert dates into JSON-safe strings
   const { hashedPassword, createdAt, ...rest } = record;
   const user = {
     ...rest,
     dob: rest.dob ? rest.dob.toISOString() : null,
   };
 
-  // 4️⃣ Return as props
   return { props: { user } };
 }
