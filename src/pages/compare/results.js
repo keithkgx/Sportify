@@ -2,12 +2,15 @@ import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import Image from "next/image";
 import Navbar from "../../components/Navbar";
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+
+// Dynamic import for Recharts to avoid SSR issues
+let BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer;
 
 export default function ComparisonResults() {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [comparisonType, setComparisonType] = useState(null);
+  const [chartsLoaded, setChartsLoaded] = useState(false);
   const router = useRouter();
 
   useEffect(() => {
@@ -21,6 +24,30 @@ export default function ComparisonResults() {
       loadTeamComparison(team1, team2);
     }
   }, [router.query]);
+
+  useEffect(() => {
+    // Dynamic import of Recharts components
+    const loadCharts = async () => {
+      try {
+        const recharts = await import('recharts');
+        BarChart = recharts.BarChart;
+        Bar = recharts.Bar;
+        XAxis = recharts.XAxis;
+        YAxis = recharts.YAxis;
+        CartesianGrid = recharts.CartesianGrid;
+        Tooltip = recharts.Tooltip;
+        Legend = recharts.Legend;
+        ResponsiveContainer = recharts.ResponsiveContainer;
+        setChartsLoaded(true);
+      } catch (error) {
+        console.error('Failed to load charts:', error);
+      }
+    };
+
+    if (typeof window !== 'undefined') {
+      loadCharts();
+    }
+  }, []);
 
   const loadPlayerComparison = async (id1, id2) => {
     try {
@@ -220,37 +247,43 @@ export default function ComparisonResults() {
         {/* Statistics Comparison Chart */}
         <div className="bg-gray-50 rounded-lg p-6">
           <h3 className="text-2xl font-bold mb-6 text-center">Statistics Comparison</h3>
-          <ResponsiveContainer width="100%" height={400}>
-            <BarChart
-              data={chartData}
-              margin={{
-                top: 20,
-                right: 30,
-                left: 20,
-                bottom: 5,
-              }}
-            >
-              <CartesianGrid strokeDasharray="3 3" />
-              <XAxis dataKey="stat" />
-              <YAxis />
-              <Tooltip />
-              <Legend />
-              <Bar 
-                dataKey={comparisonType === 'player' 
-                  ? `${entity1.first_name} ${entity1.last_name}` 
-                  : entity1.full_name
-                } 
-                fill="#f97316" 
-              />
-              <Bar 
-                dataKey={comparisonType === 'player' 
-                  ? `${entity2.first_name} ${entity2.last_name}` 
-                  : entity2.full_name
-                } 
-                fill="#3b82f6" 
-              />
-            </BarChart>
-          </ResponsiveContainer>
+          {chartsLoaded && typeof window !== 'undefined' ? (
+            <ResponsiveContainer width="100%" height={400}>
+              <BarChart
+                data={chartData}
+                margin={{
+                  top: 20,
+                  right: 30,
+                  left: 20,
+                  bottom: 5,
+                }}
+              >
+                <CartesianGrid strokeDasharray="3 3" />
+                <XAxis dataKey="stat" />
+                <YAxis />
+                <Tooltip />
+                <Legend />
+                <Bar 
+                  dataKey={comparisonType === 'player' 
+                    ? `${entity1.first_name} ${entity1.last_name}` 
+                    : entity1.full_name
+                  } 
+                  fill="#f97316" 
+                />
+                <Bar 
+                  dataKey={comparisonType === 'player' 
+                    ? `${entity2.first_name} ${entity2.last_name}` 
+                    : entity2.full_name
+                  } 
+                  fill="#3b82f6" 
+                />
+              </BarChart>
+            </ResponsiveContainer>
+          ) : (
+            <div className="flex justify-center items-center h-96">
+              <div className="text-lg text-gray-600">Loading chart...</div>
+            </div>
+          )}
         </div>
 
         {/* Detailed Stats Table */}
