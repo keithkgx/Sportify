@@ -237,50 +237,6 @@ export default function ComparisonResults() {
             comparisonType={comparisonType}
           />
         </div>
-
-        {/* Detailed Stats Table */}
-        <div className="bg-white border rounded-lg overflow-hidden">
-          <div className="bg-gray-50 px-6 py-3 border-b">
-            <h3 className="text-xl font-bold">Detailed Statistics</h3>
-          </div>
-          <div className="p-6">
-            <div className="grid grid-cols-3 gap-4 text-center">
-              <div className="font-semibold">Statistic</div>
-              <div className="font-semibold">
-                {comparisonType === 'player' 
-                  ? `${entity1.first_name} ${entity1.last_name}` 
-                  : entity1.full_name
-                }
-              </div>
-              <div className="font-semibold">
-                {comparisonType === 'player' 
-                  ? `${entity2.first_name} ${entity2.last_name}` 
-                  : entity2.full_name
-                }
-              </div>
-              
-              {chartData.map((row, index) => (
-                <>
-                  <div key={`stat-${index}`} className="py-2 border-t">
-                    {row.stat}
-                  </div>
-                  <div key={`val1-${index}`} className="py-2 border-t font-medium text-orange-600">
-                    {comparisonType === 'player' 
-                      ? row[`${entity1.first_name} ${entity1.last_name}`]
-                      : row[entity1.full_name]
-                    }
-                  </div>
-                  <div key={`val2-${index}`} className="py-2 border-t font-medium text-blue-600">
-                    {comparisonType === 'player' 
-                      ? row[`${entity2.first_name} ${entity2.last_name}`]
-                      : row[entity2.full_name]
-                    }
-                  </div>
-                </>
-              ))}
-            </div>
-          </div>
-        </div>
       </main>
     </div>
   );
