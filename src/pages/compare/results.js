@@ -62,10 +62,11 @@ export default function ComparisonResults() {
     if (!data) return [];
 
     const { entity1, entity2 } = data;
-    const stats1 = entity1.stats;
-    const stats2 = entity2.stats;
 
     if (comparisonType === 'player') {
+      const stats1 = entity1.stats;
+      const stats2 = entity2.stats;
+      
       return [
         {
           stat: 'Points',
@@ -91,24 +92,14 @@ export default function ComparisonResults() {
     } else {
       return [
         {
-          stat: 'PPG',
-          [entity1.full_name]: stats1.ppg,
-          [entity2.full_name]: stats2.ppg,
+          stat: 'Wins',
+          [entity1.full_name]: entity1.wins,
+          [entity2.full_name]: entity2.wins,
         },
         {
-          stat: 'RPG',
-          [entity1.full_name]: stats1.rpg,
-          [entity2.full_name]: stats2.rpg,
-        },
-        {
-          stat: 'APG',
-          [entity1.full_name]: stats1.apg,
-          [entity2.full_name]: stats2.apg,
-        },
-        {
-          stat: 'FG%',
-          [entity1.full_name]: (stats1.fg_pct * 100).toFixed(1),
-          [entity2.full_name]: (stats2.fg_pct * 100).toFixed(1),
+          stat: 'Losses',
+          [entity1.full_name]: entity1.losses,
+          [entity2.full_name]: entity2.losses,
         },
       ];
     }
