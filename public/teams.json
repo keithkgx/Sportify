@@ -6,8 +6,7 @@
     "division": "Southeast",
     "logo": "/logos/hawks.png",
     "wins": 35,
-    "losses": 47,
-    "stats": { "ppg": 118.2, "fg_pct": 0.463, "rpg": 44.8, "apg": 26.1 }
+    "losses": 47
   },
   {
     "id": 2,
@@ -16,8 +15,7 @@
     "division": "Atlantic",
     "logo": "/logos/celtics.png",
     "wins": 60,
-    "losses": 22,
-    "stats": { "ppg": 120.6, "fg_pct": 0.477, "rpg": 46.2, "apg": 26.9 }
+    "losses": 22
   },
   {
     "id": 3,
@@ -26,8 +24,7 @@
     "division": "Atlantic",
     "logo": "/logos/nets.png",
     "wins": 45,
-    "losses": 37,
-    "stats": { "ppg": 112.7, "fg_pct": 0.456, "rpg": 42.1, "apg": 25.3 }
+    "losses": 37
   },
   {
     "id": 4,
@@ -36,8 +33,7 @@
     "division": "Southeast",
     "logo": "/logos/hornets.png",
     "wins": 24,
-    "losses": 58,
-    "stats": { "ppg": 108.3, "fg_pct": 0.441, "rpg": 41.7, "apg": 24.1 }
+    "losses": 58
   },
   {
     "id": 5,
@@ -46,8 +42,7 @@
     "division": "Central",
     "logo": "/logos/bulls.png",
     "wins": 34,
-    "losses": 48,
-    "stats": { "ppg": 109.8, "fg_pct": 0.448, "rpg": 43.2, "apg": 23.7 }
+    "losses": 48
   },
   {
     "id": 6,
@@ -56,8 +51,7 @@
     "division": "Central",
     "logo": "/logos/cavaliers.png",
     "wins": 50,
-    "losses": 32,
-    "stats": { "ppg": 115.1, "fg_pct": 0.471, "rpg": 44.9, "apg": 25.8 }
+    "losses": 32
   },
   {
     "id": 7,
@@ -66,8 +60,7 @@
     "division": "Southwest",
     "logo": "/logos/mavericks.png",
     "wins": 47,
-    "losses": 35,
-    "stats": { "ppg": 117.9, "fg_pct": 0.468, "rpg": 43.1, "apg": 26.4 }
+    "losses": 35
   },
   {
     "id": 8,
@@ -76,8 +69,7 @@
     "division": "Northwest",
     "logo": "/logos/nuggets.png",
     "wins": 58,
-    "losses": 24,
-    "stats": { "ppg": 114.7, "fg_pct": 0.492, "rpg": 44.8, "apg": 27.1 }
+    "losses": 24
   },
   {
     "id": 9,
@@ -86,8 +78,7 @@
     "division": "Central",
     "logo": "/logos/pistons.png",
     "wins": 17,
-    "losses": 65,
-    "stats": { "ppg": 106.2, "fg_pct": 0.438, "rpg": 42.3, "apg": 22.9 }
+    "losses": 65
   },
   {
     "id": 10,
@@ -96,8 +87,7 @@
     "division": "Pacific",
     "logo": "/logos/warriors.png",
     "wins": 53,
-    "losses": 29,
-    "stats": { "ppg": 116.3, "fg_pct": 0.463, "rpg": 45.1, "apg": 27.8 }
+    "losses": 29
   },
   {
     "id": 11,
@@ -106,8 +96,7 @@
     "division": "Southwest",
     "logo": "/logos/rockets.png",
     "wins": 22,
-    "losses": 60,
-    "stats": { "ppg": 110.4, "fg_pct": 0.445, "rpg": 43.6, "apg": 24.2 }
+    "losses": 60
   },
   {
     "id": 12,
@@ -116,8 +105,7 @@
     "division": "Central",
     "logo": "/logos/pacers.png",
     "wins": 52,
-    "losses": 30,
-    "stats": { "ppg": 123.3, "fg_pct": 0.501, "rpg": 42.9, "apg": 30.1 }
+    "losses": 30
   },
   {
     "id": 13,
@@ -126,8 +114,7 @@
     "division": "Pacific",
     "logo": "/logos/clippers.png",
     "wins": 43,
-    "losses": 39,
-    "stats": { "ppg": 113.8, "fg_pct": 0.467, "rpg": 44.2, "apg": 25.7 }
+    "losses": 39
   },
   {
     "id": 14,
@@ -136,8 +123,7 @@
     "division": "Pacific",
     "logo": "/logos/lakers.png",
     "wins": 45,
-    "losses": 37,
-    "stats": { "ppg": 114.9, "fg_pct": 0.473, "rpg": 45.3, "apg": 26.2 }
+    "losses": 37
   },
   {
     "id": 15,
@@ -146,8 +132,7 @@
     "division": "Southwest",
     "logo": "/logos/grizzlies.png",
     "wins": 50,
-    "losses": 32,
-    "stats": { "ppg": 113.7, "fg_pct": 0.461, "rpg": 47.2, "apg": 25.4 }
+    "losses": 32
   },
   {
     "id": 16,
@@ -156,8 +141,7 @@
     "division": "Southeast",
     "logo": "/logos/heat.png",
     "wins": 55,
-    "losses": 27,
-    "stats": { "ppg": 111.9, "fg_pct": 0.469, "rpg": 43.1, "apg": 25.9 }
+    "losses": 27
   },
   {
     "id": 17,
@@ -166,8 +150,7 @@
     "division": "Central",
     "logo": "/logos/bucks.png",
     "wins": 58,
-    "losses": 24,
-    "stats": { "ppg": 118.4, "fg_pct": 0.485, "rpg": 47.4, "apg": 26.7 }
+    "losses": 24
   },
   {
     "id": 18,
@@ -176,8 +159,7 @@
     "division": "Northwest",
     "logo": "/logos/timberwolves.png",
     "wins": 46,
-    "losses": 36,
-    "stats": { "ppg": 109.1, "fg_pct": 0.457, "rpg": 45.8, "apg": 24.3 }
+    "losses": 36
   },
   {
     "id": 19,
@@ -186,8 +168,7 @@
     "division": "Southwest",
     "logo": "/logos/pelicans.png",
     "wins": 42,
-    "losses": 40,
-    "stats": { "ppg": 112.5, "fg_pct": 0.461, "rpg": 45.1, "apg": 25.8 }
+    "losses": 40
   },
   {
     "id": 20,
@@ -196,8 +177,7 @@
     "division": "Atlantic",
     "logo": "/logos/knicks.png",
     "wins": 47,
-    "losses": 35,
-    "stats": { "ppg": 112.8, "fg_pct": 0.471, "rpg": 47.1, "apg": 23.1 }
+    "losses": 35
   },
   {
     "id": 21,
@@ -206,8 +186,7 @@
     "division": "Northwest",
     "logo": "/logos/thunder.png",
     "wins": 40,
-    "losses": 42,
-    "stats": { "ppg": 115.0, "fg_pct": 0.476, "rpg": 43.7, "apg": 25.2 }
+    "losses": 42
   },
   {
     "id": 22,
@@ -216,8 +195,7 @@
     "division": "Southeast",
     "logo": "/logos/magic.png",
     "wins": 42,
-    "losses": 40,
-    "stats": { "ppg": 110.5, "fg_pct": 0.457, "rpg": 44.6, "apg": 23.8 }
+    "losses": 40
   },
   {
     "id": 23,
@@ -226,8 +204,7 @@
     "division": "Atlantic",
     "logo": "/logos/sixers.png",
     "wins": 57,
-    "losses": 25,
-    "stats": { "ppg": 114.6, "fg_pct": 0.474, "rpg": 42.7, "apg": 26.8 }
+    "losses": 25
   },
   {
     "id": 24,
@@ -236,8 +213,7 @@
     "division": "Pacific",
     "logo": "/logos/suns.png",
     "wins": 47,
-    "losses": 35,
-    "stats": { "ppg": 113.1, "fg_pct": 0.471, "rpg": 44.8, "apg": 27.3 }
+    "losses": 35
   },
   {
     "id": 25,
@@ -246,8 +222,7 @@
     "division": "Northwest",
     "logo": "/logos/blazers.png",
     "wins": 33,
-    "losses": 49,
-    "stats": { "ppg": 107.2, "fg_pct": 0.441, "rpg": 43.1, "apg": 22.7 }
+    "losses": 49
   },
   {
     "id": 26,
@@ -256,8 +231,7 @@
     "division": "Pacific",
     "logo": "/logos/kings.png",
     "wins": 48,
-    "losses": 34,
-    "stats": { "ppg": 120.7, "fg_pct": 0.481, "rpg": 41.2, "apg": 25.1 }
+    "losses": 34
   },
   {
     "id": 27,
@@ -266,8 +240,7 @@
     "division": "Southwest",
     "logo": "/logos/spurs.png",
     "wins": 22,
-    "losses": 60,
-    "stats": { "ppg": 111.2, "fg_pct": 0.456, "rpg": 46.3, "apg": 26.8 }
+    "losses": 60
   },
   {
     "id": 28,
@@ -276,8 +249,7 @@
     "division": "Atlantic",
     "logo": "/logos/raptors.png",
     "wins": 41,
-    "losses": 41,
-    "stats": { "ppg": 111.7, "fg_pct": 0.461, "rpg": 43.9, "apg": 26.5 }
+    "losses": 41
   },
   {
     "id": 29,
@@ -286,8 +258,7 @@
     "division": "Northwest",
     "logo": "/logos/jazz.png",
     "wins": 49,
-    "losses": 33,
-    "stats": { "ppg": 115.9, "fg_pct": 0.472, "rpg": 44.1, "apg": 27.9 }
+    "losses": 33
   },
   {
     "id": 30,
@@ -296,7 +267,6 @@
     "division": "Southeast",
     "logo": "/logos/wizards.png",
     "wins": 28,
-    "losses": 54,
-    "stats": { "ppg": 113.4, "fg_pct": 0.459, "rpg": 41.8, "apg": 25.3 }
+    "losses": 54
   }
 ]
